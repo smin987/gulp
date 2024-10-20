@@ -2,6 +2,34 @@
   "name": "gulp",
   "version": "1.0.0",
   "description": "study version",
+  "repository": "https://github.com/smin987/gulp",
   "author": "smin987",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@babel/register": "^7.25.7",
+    "babelify": "^10.0.0",
+    "del": "^8.0.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^6.3.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "sass": "^1.80.3",
+    "uglifyify": "^5.0.2"
+  }
 }
